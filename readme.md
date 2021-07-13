@@ -16,7 +16,7 @@ Fix branching scenario crash on click of reuse
 ## Solutions
 
 ```
-1. There is function 'updateContentTypeCache()' available in the core of H5P
+1. There is a function 'updateContentTypeCache()' available in the core of H5P
    in h5p.classes.php file. That function needs to be call for updating cache 
    of content type and newly added libraries.
    For reference please find details here ->
@@ -34,3 +34,5 @@ Fix branching scenario crash on click of reuse
 
        Put `AddType application/x-h5p h5p` in .htaccess file
 ```
+
+For Reference we have added our local .htaccess file and mime.type file from apache server.
